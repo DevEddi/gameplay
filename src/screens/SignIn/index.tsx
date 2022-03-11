@@ -13,11 +13,7 @@ import { styles } from './styles';
 export  function SignIn(){
   return(
     <View style={styles.container}>
-      <StatusBar
-        barStyle='light-content'
-        backgroundColor='transparent'
-        translucent      
-      />
+      
 
         <Image source={Illustration} 
         style={styles.image}
